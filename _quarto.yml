@@ -3,12 +3,14 @@ project:
 
 website:
   title: "spotify-dashboard"
-  navbar:
-    left:
+  sidebar:
+    contents:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - dashboard.qmd
+      - href: about.qmd
+        text: About
+      - href: dashboard.qmd
+        text: Dashboard
       
 format:
   html:
